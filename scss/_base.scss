@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: 'Nunito';
+    text-align: center;
+    color: $font;
+    font-size: 16px;
+
+    @media (max-width: 350px) {
+        font-size: 0.6rem;
+    }
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: $font;
+}
+
+
+.logo {
+    font-family: 'Crete Round';
+    font-size: 1.5rem;
+    font-weight: bold;
+
+
+    &::after {
+        content: 'Chocolat.';
+        color: $framboise;
+    }
+}
+
+.button {
+    color: $white;
+    background-color: $framboise;
+    width: 80px;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: none;
+    font-size: 0.9rem;
+    
+}
+
+

@@ -1,0 +1,51 @@
+.chart {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+
+    @media (min-width: 830px) {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+
+    h3 {
+        @media (min-width: 830px) {
+            margin-top: 40px;
+        }
+    }
+
+
+    p {
+        margin: 25px;
+        @media (min-width: 830px) {
+            font-size: 0.8rem;
+        }
+    }
+
+
+
+    img {
+        width: 20%;
+        
+        @media (min-width: 830px) {
+            margin-top: 30px;
+        }
+
+        @media (min-width: 500px) {
+            width: 10%;
+        }
+
+    }
+
+
+    &__quality,
+    &__ecology,
+    &__fairtrade {
+        @media (min-width: 830px) {
+        width: 300px;
+        }
+    }
+
+}

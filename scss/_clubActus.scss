@@ -1,0 +1,66 @@
+.clubActus {
+    background-color: $lightgray;
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h3 {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    p {
+        border-top: 2px solid $lightgray;
+        padding-top: 20px;
+        margin: 0px 20px;
+        font-style: italic;
+    }
+
+    .button {
+        display: block;
+        padding: 8px;
+        margin: 10px auto;
+    }
+
+    @media (min-width: 500px) {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+        
+}
+
+
+
+
+.clubActus__club, 
+.clubActus__actus{
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    margin: 50px 30px;
+    width: 100%;
+
+
+}
+
+.clubActus__club{
+    background-image: url(../images/article-image-1.jpg);
+}
+
+.clubActus__actus{
+    background-image: url(../images/article-image-2.jpg);
+}
+
+
+.club__content,
+.actus__content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    max-width: 40%;
+    background-color: rgba(255, 255, 255, 0.89);
+}
+

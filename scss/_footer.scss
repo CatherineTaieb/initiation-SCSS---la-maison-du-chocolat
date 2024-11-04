@@ -1,0 +1,16 @@
+footer {
+    background-color: $footer;
+    display: flex;
+    flex-direction: column;
+
+    .logo {
+        color: $white;
+        margin: 10px auto;
+    }
+
+    p {
+        color:$gray;
+        font-size: 0.7rem;
+    }
+}
+

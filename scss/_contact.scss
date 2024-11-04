@@ -1,0 +1,57 @@
+.contact {
+    h2 {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    p {
+        border-top: 1px solid $lightblue;
+        margin: 0px 20px;
+        padding-top: 20px;
+
+        @media (min-width: 830px) {
+            margin: 0px 250px;
+        }
+    }
+
+    form {
+        ul {
+            list-style: none;
+            padding: 0;
+
+        li {
+            margin-left: 20px;
+            }
+
+        @media (min-width: 830px) {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+            margin-bottom: 60px;
+            }
+        }
+        
+
+        label {
+            font-weight: bold;
+            font-size: 12px;
+        }
+
+        input {
+            width: 150px;
+            padding: 5px 10px;
+            margin: 10px 0px 5px 10px;
+            border: 1px solid rgba(128, 128, 128, 0.432);
+            border-radius: 2px;
+        }
+    }
+
+    .button {
+        display: block;
+        width: 35px;
+        height: 35px;
+        padding: 0px;
+        margin: 8px auto;
+    }
+}
